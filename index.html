@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>SERVER ARDUINO</title>
+	<style>
+	div {
+	  border: 2px solid;
+	  padding: 20px; 
+	  width: 300px;
+	  resize: both;
+	  overflow: auto;
+	}
+</style>
+</head>
+<body>
+        <h1><center>CONTROL DE LUCES VIA WEB (Arduino y Python)</center></h1>
+        <form name="formulario" method="get" action="http://192.168.0.16:8000/">
+        	ENCEDER LUCES <center><input type="submit" value='1' name="nombre" formaction="" style='width:300px; height:130px; color: #003366; background-color: #00FF00'></center>
+        	APAGAR LUCES <center><input type="submit" value='0' name="nombre" formaction="" style='width:300px; height:130px; color: #003366; background-color: #FF0000'></center>
+        </form>
+        </body>
+</html>
